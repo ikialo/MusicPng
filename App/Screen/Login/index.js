@@ -31,12 +31,9 @@ export default class Login extends React.Component {
         />
         <Button title="Login" onPress={this.handleLogin} />
         <Button
-          title="Don't have an account? Sign Up"
+          title="Don't have an account? Sign Up "
           onPress={() => this.props.navigation.navigate('SignIn')}
 
-
-
-          
         />
       </View>
     )
